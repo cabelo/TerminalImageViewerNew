@@ -71,8 +71,8 @@ install -d %{buildroot}/usr/bin
 install -d %{buildroot}/usr/share/licenses/tiv 
 install -d %{buildroot}/usr/share/doc/packages/tiv
 cp tiv %{buildroot}/usr/bin/tiv
-cp ../../../LICENSE %{buildroot}/usr/share/licenses/tiv
-cp ../../../README.md %{buildroot}/usr/share/doc/packages/tiv
+cp ../LICENSE %{buildroot}/usr/share/licenses/tiv
+cp ../README.md %{buildroot}/usr/share/doc/packages/tiv
 
 %post
 
