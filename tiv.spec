@@ -49,7 +49,7 @@ fi
 
 %build
 cd $RPM_SOURCE_DIR/tiv
-cd src/main/cpp
+cd src/cpp
 %if 0%{?suse_version} > 1500 	
 echo "Ok"
 make %{?_smp_mflags}
